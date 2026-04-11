@@ -1,0 +1,15 @@
+# Cherie's rules - don't push temp garbage
+.env*
+*.tmp
+*.log
+node_modules/
+.DS_Store
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+
+# OpenClaw's private workspace files
+.memory/
+.state/
+config.yaml
