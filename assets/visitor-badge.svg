@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px rgba(102, 126, 234, 0.5)); }
+        50% { filter: drop-shadow(0 0 15px rgba(102, 126, 234, 0.8)); }
+      }
+      .badge {
+        animation: glow 2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="300" height="60" fill="url(#badgeGrad)" rx="30" class="badge"/>
+
+  <!-- Eye icon -->
+  <g transform="translate(20, 15)">
+    <ellipse cx="15" cy="15" rx="12" ry="8" fill="#fff"/>
+    <circle cx="15" cy="15" r="5" fill="#667eea"/>
+    <circle cx="17" cy="13" r="2" fill="#fff"/>
+  </g>
+
+  <!-- Text -->
+  <text x="60" y="38" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    👀 Profile Views
+  </text>
+
+  <!-- Counter -->
+  <text x="250" y="38" text-anchor="end" fill="#fff" font-family="monospace" font-size="18" font-weight="bold">
+    ∞
+  </text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .tech-icon {
+        animation: fadeIn 0.5s ease-out forwards;
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+      .tech-icon:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="200" fill="#0f0f23" rx="10"/>
+
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    🛠️ Tech Stack
+  </text>
+
+  <!-- Tech Icons Row 1 -->
+  <g transform="translate(50, 60)">
+    <!-- JavaScript -->
+    <g class="tech-icon" style="animation-delay: 0.1s">
+      <rect x="0" y="0" width="100" height="100" fill="#f7df1e" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#000" font-family="Arial" font-size="12" font-weight="bold">JS</text>
+      <text x="50" y="75" text-anchor="middle" fill="#000" font-family="Arial" font-size="10">JavaScript</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g class="tech-icon" transform="translate(120, 0)" style="animation-delay: 0.2s">
+      <rect x="0" y="0" width="100" height="100" fill="#3178c6" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">TS</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">TypeScript</text>
+    </g>
+
+    <!-- Python -->
+    <g class="tech-icon" transform="translate(240, 0)" style="animation-delay: 0.3s">
+      <rect x="0" y="0" width="100" height="100" fill="#3776ab" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#ffd43b" font-family="Arial" font-size="12" font-weight="bold">Py</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">Python</text>
+    </g>
+
+    <!-- Node.js -->
+    <g class="tech-icon" transform="translate(360, 0)" style="animation-delay: 0.4s">
+      <rect x="0" y="0" width="100" height="100" fill="#339933" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">Node</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">Node.js</text>
+    </g>
+
+    <!-- Docker -->
+    <g class="tech-icon" transform="translate(480, 0)" style="animation-delay: 0.5s">
+      <rect x="0" y="0" width="100" height="100" fill="#2496ed" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">🐳</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">Docker</text>
+    </g>
+
+    <!-- Git -->
+    <g class="tech-icon" transform="translate(600, 0)" style="animation-delay: 0.6s">
+      <rect x="0" y="0" width="100" height="100" fill="#f05032" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">Git</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">Version Control</text>
+    </g>
+
+    <!-- Linux -->
+    <g class="tech-icon" transform="translate(720, 0)" style="animation-delay: 0.7s">
+      <rect x="0" y="0" width="100" height="100" fill="#fcc624" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#000" font-family="Arial" font-size="12" font-weight="bold">🐧</text>
+      <text x="50" y="75" text-anchor="middle" fill="#000" font-family="Arial" font-size="10">Linux</text>
+    </g>
+
+    <!-- AWS -->
+    <g class="tech-icon" transform="translate(840, 0)" style="animation-delay: 0.8s">
+      <rect x="0" y="0" width="100" height="100" fill="#ff9900" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">☁️</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">AWS</text>
+    </g>
+
+    <!-- OpenAI -->
+    <g class="tech-icon" transform="translate(960, 0)" style="animation-delay: 0.9s">
+      <rect x="0" y="0" width="100" height="100" fill="#00a67e" rx="10"/>
+      <text x="50" y="55" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="bold">🤖</text>
+      <text x="50" y="75" text-anchor="middle" fill="#fff" font-family="Arial" font-size="10">AI/ML</text>
+    </g>
+  </g>
+</svg>

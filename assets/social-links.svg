@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="600" height="100">
+  <defs>
+    <style>
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      .social-icon {
+        animation: bounce 2s ease-in-out infinite;
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+      .social-icon:hover {
+        transform: scale(1.2);
+      }
+    </style>
+  </defs>
+
+  <rect width="600" height="100" fill="#0f0f23" rx="10"/>
+
+  <!-- Title -->
+  <text x="300" y="25" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    🔗 Connect With Me
+  </text>
+
+  <!-- Social Icons -->
+  <g transform="translate(50, 35)">
+    <!-- GitHub -->
+    <g class="social-icon" style="animation-delay: 0s">
+      <rect x="0" y="0" width="50" height="50" fill="#333" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">🐙</text>
+    </g>
+
+    <!-- Discord -->
+    <g class="social-icon" transform="translate(70, 0)" style="animation-delay: 0.2s">
+      <rect x="0" y="0" width="50" height="50" fill="#5865F2" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">💬</text>
+    </g>
+
+    <!-- Telegram -->
+    <g class="social-icon" transform="translate(140, 0)" style="animation-delay: 0.4s">
+      <rect x="0" y="0" width="50" height="50" fill="#0088cc" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">✈️</text>
+    </g>
+
+    <!-- Twitter/X -->
+    <g class="social-icon" transform="translate(210, 0)" style="animation-delay: 0.6s">
+      <rect x="0" y="0" width="50" height="50" fill="#1DA1F2" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">🐦</text>
+    </g>
+
+    <!-- Email -->
+    <g class="social-icon" transform="translate(280, 0)" style="animation-delay: 0.8s">
+      <rect x="0" y="0" width="50" height="50" fill="#ea4335" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">📧</text>
+    </g>
+
+    <!-- Website -->
+    <g class="social-icon" transform="translate(350, 0)" style="animation-delay: 1s">
+      <rect x="0" y="0" width="50" height="50" fill="#4285f4" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">🌐</text>
+    </g>
+
+    <!-- LinkedIn -->
+    <g class="social-icon" transform="translate(420, 0)" style="animation-delay: 1.2s">
+      <rect x="0" y="0" width="50" height="50" fill="#0077b5" rx="10"/>
+      <text x="25" y="32" text-anchor="middle" fill="#fff" font-size="20">💼</text>
+    </g>
+  </g>
+</svg>

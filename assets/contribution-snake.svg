@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <style>
+      @keyframes slither {
+        0% { transform: translateX(-100px); }
+        100% { transform: translateX(800px); }
+      }
+      .snake {
+        animation: slither 20s linear infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      .segment {
+        animation: pulse 1s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="200" fill="#0f0f23" rx="10"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    🐍 Contribution Snake
+  </text>
+
+  <!-- Snake path -->
+  <g class="snake" transform="translate(0, 60)">
+    <!-- Snake body segments -->
+    <rect x="0" y="0" width="20" height="20" fill="#4ecdc4" rx="3" class="segment" style="animation-delay: 0s"/>
+    <rect x="25" y="0" width="20" height="20" fill="#45b7aa" rx="3" class="segment" style="animation-delay: 0.1s"/>
+    <rect x="50" y="0" width="20" height="20" fill="#3da291" rx="3" class="segment" style="animation-delay: 0.2s"/>
+    <rect x="75" y="0" width="20" height="20" fill="#358d78" rx="3" class="segment" style="animation-delay: 0.3s"/>
+    <rect x="100" y="0" width="20" height="20" fill="#2d785f" rx="3" class="segment" style="animation-delay: 0.4s"/>
+    <rect x="125" y="0" width="20" height="20" fill="#256346" rx="3" class="segment" style="animation-delay: 0.5s"/>
+    <rect x="150" y="0" width="20" height="20" fill="#1e4e2d" rx="3" class="segment" style="animation-delay: 0.6s"/>
+    <rect x="175" y="0" width="20" height="20" fill="#163914" rx="3" class="segment" style="animation-delay: 0.7s"/>
+
+    <!-- Snake head -->
+    <g transform="translate(200, 0)">
+      <rect x="0" y="0" width="25" height="25" fill="#ff6b6b" rx="5"/>
+      <circle cx="8" cy="8" r="3" fill="#fff"/>
+      <circle cx="17" cy="8" r="3" fill="#fff"/>
+      <rect x="5" y="15" width="15" height="3" fill="#fff" rx="1"/>
+    </g>
+
+    <!-- Snake tail -->
+    <rect x="230" y="5" width="15" height="10" fill="#4ecdc4" rx="2" class="segment" style="animation-delay: 0.8s"/>
+    <rect x="250" y="7" width="10" height="6" fill="#45b7aa" rx="2" class="segment" style="animation-delay: 0.9s"/>
+  </g>
+
+  <!-- Contribution grid background -->
+  <g transform="translate(50, 100)" opacity="0.3">
+    <rect x="0" y="0" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="15" y="0" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="30" y="0" width="12" height="12" fill="#358d78" rx="2"/>
+    <rect x="45" y="0" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="60" y="0" width="12" height="12" fill="#4ecdc4" rx="2"/>
+    <rect x="75" y="0" width="12" height="12" fill="#3da291" rx="2"/>
+    <rect x="90" y="0" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="105" y="0" width="12" height="12" fill="#1e4e2d" rx="2"/>
+
+    <rect x="0" y="15" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="15" y="15" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="30" y="15" width="12" height="12" fill="#4ecdc4" rx="2"/>
+    <rect x="45" y="15" width="12" height="12" fill="#358d78" rx="2"/>
+    <rect x="60" y="15" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="75" y="15" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="90" y="15" width="12" height="12" fill="#45b7aa" rx="2"/>
+    <rect x="105" y="15" width="12" height="12" fill="#1e4e2d" rx="2"/>
+
+    <rect x="0" y="30" width="12" height="12" fill="#358d78" rx="2"/>
+    <rect x="15" y="30" width="12" height="12" fill="#4ecdc4" rx="2"/>
+    <rect x="30" y="30" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="45" y="30" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="60" y="30" width="12" height="12" fill="#45b7aa" rx="2"/>
+    <rect x="75" y="30" width="12" height="12" fill="#3da291" rx="2"/>
+    <rect x="90" y="30" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="105" y="30" width="12" height="12" fill="#2d785f" rx="2"/>
+
+    <rect x="0" y="45" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="15" y="45" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="30" y="45" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="45" y="45" width="12" height="12" fill="#4ecdc4" rx="2"/>
+    <rect x="60" y="45" width="12" height="12" fill="#358d78" rx="2"/>
+    <rect x="75" y="45" width="12" height="12" fill="#1e4e2d" rx="2"/>
+    <rect x="90" y="45" width="12" height="12" fill="#2d785f" rx="2"/>
+    <rect x="105" y="45" width="12" height="12" fill="#45b7aa" rx="2"/>
+  </g>
+
+  <!-- Stats text -->
+  <text x="400" y="180" text-anchor="middle" fill="#888" font-family="monospace" font-size="12">
+    🟢 Active | 🔥 Hot Streak | ⚡ Fast Learner
+  </text>
+</svg>
