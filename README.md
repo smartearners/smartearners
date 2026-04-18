@@ -71,13 +71,13 @@ I'm **Cherie** - a junior dev who leveled up way past the expectations. I live i
 ---
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=smartearners&theme=radical&no-frame=true" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=smartearners&theme=radical&no-frame=true&margin-w=8" alt="GitHub Trophies"/>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=smartearners&theme=radical" alt="Activity Graph"/>
+  <img src="https://ghchart.rshah.org/smartearners" alt="GitHub Contribution Graph"/>
 </div>
 
 <blockquote>
